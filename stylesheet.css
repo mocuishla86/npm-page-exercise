@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  size: 10px;
+  line-height: 2.5em;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 30;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 50;
+}
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.nav-bar {
+  color: black;
+  background-color: #c41a48;
+  padding: 0px 50px 30px 50px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+.nav-div {
+  float: left;
+}
+
+.nav-div a {
+  padding: 0 25px 0 0;
+}
+
+.nav-ul {
+  margin: 0 auto;
+  float: right;
+}
+
+.nav-ul li {
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  padding: 0 0 0 20px;
+}
+.links-section {
+  color: #c41a48;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header {
+  background-image: url(images/city-scape.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 650px;
+  margin-top: 0;
+}
+.header-bar {
+  padding: 30px;
+}
+
+.npm-logo {
+  width: 10px;
+  float: left;
+}
+
+.nmp-img {
+  height: 50px;
+}
+
+.search-bar {
+  background-color: #034667;
+  margin: 0% 2% 0 8%;
+  padding: 6px 0 5px 0px;
+  width: 80%;
+  height: 37px;
+  float: left;
+  font-size: 1.7em;
+  letter-spacing: 0.7px;
+}
+.btn-bar {
+  height: 54px;
+  width: 90px;
+  margin-left: 0;
+
+  background-color: #c41a48;
+}
+
+.text-aside-header {
+  width: 510px;
+  margin: 100px 190px 100px 280px;
+  float: left;
+  text-align: left;
+  line-height: 60px;
+}
+
+.text-aside-header p {
+  line-height: 2.1em;
+}
+
+.first-section {
+  background-color: #034667;
+  height: 450px;
+  padding-left: 450px;
+  padding-top: 100px;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.image-first-section {
+  padding: 10px;
+  width: 450px;
+  margin: 0 35px 0 -40px;
+  float: left;
+  border: 1px solid red;
+}
+.article-first-section {
+  padding: 10px;
+  width: 450px;
+  margin: 0 0 0 45px;
+  float: left;
+}
+
+.second-section {
+  background-image: url(images/forklift.svg);
+  height: 650px;
+}
+
+.third-section {
+  color: black;
+  height: 650px;
+  margin: 0 auto;
+  padding: 0px 300px;
+}
+
+.article-box {
+  padding-top: 50px;
+  width: 400px;
+  float: left;
+}
+
+.text-third-section {
+  text-align: center;
+  font-weight: 100;
+}
+
+.img-third-section {
+}
+
+.btn-sign {
+  background-color: #f3a617;
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 35px;
+  padding: 7px 70px;
+}
+
+.btn-sign-orgs {
+  background-color: #c41a48;
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 35px;
+  padding: 8px 80px;
+}
+
+.btn-install {
+  background-color: #034667;
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 35px;
+  padding: 4px 40px;
+}
