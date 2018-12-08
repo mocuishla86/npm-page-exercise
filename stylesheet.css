@@ -60,6 +60,31 @@ p {
   text-align: center;
   padding: 0 0 0 20px;
 }
+.links-bar {
+  float:left;
+  font-size: 1.2em;
+  width: 9%;
+  margin-left:1%;
+  margin-top:0.6%;
+}
+
+.links-bar a{
+  text-decoration: none;
+  color: whitesmoke;
+
+}
+
+.bear-logo {
+  margin-left:0;
+  float: left;
+}
+
+.bear-logo img {
+  height: 60px;
+  padding: 2px 0;
+  width: 80px;
+}
+
 .links-section {
   color: #c41a48;
   text-decoration: none;
@@ -88,21 +113,15 @@ p {
 
 .search-bar {
   background-color: #034667;
-  margin: 0% 2% 0 8%;
+  margin: 0% 0% 0 8%;
   padding: 6px 0 5px 0px;
-  width: 80%;
+  width: 70%;
   height: 37px;
   float: left;
   font-size: 1.7em;
   letter-spacing: 0.7px;
 }
-.btn-bar {
-  height: 54px;
-  width: 90px;
-  margin-left: 0;
 
-  background-color: #c41a48;
-}
 
 .text-aside-header {
   width: 510px;
@@ -130,7 +149,7 @@ p {
   width: 450px;
   margin: 0 35px 0 -40px;
   float: left;
-  border: 1px solid red;
+  
 }
 .article-first-section {
   padding: 10px;
@@ -142,6 +161,16 @@ p {
 .second-section {
   background-image: url(images/forklift.svg);
   height: 650px;
+  
+}
+
+.second-section div{
+  text-align: left;;
+  float: left;
+  width: 450px;
+  padding: 10px;
+  margin: 250px 0 0 300px;
+  
 }
 
 .third-section {
@@ -149,6 +178,7 @@ p {
   height: 650px;
   margin: 0 auto;
   padding: 0px 300px;
+  text-align: center;
 }
 
 .article-box {
@@ -160,9 +190,6 @@ p {
 .text-third-section {
   text-align: center;
   font-weight: 100;
-}
-
-.img-third-section {
 }
 
 .btn-sign {
