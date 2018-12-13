@@ -39,7 +39,7 @@ p {
 
 .nav-bar a {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
 }
 .nav-div {
   float: left;
@@ -47,6 +47,7 @@ p {
 
 .nav-div a {
   padding: 0 25px 0 0;
+  font-weight: bold;
 }
 
 .nav-ul {
@@ -58,6 +59,7 @@ p {
   display: inline;
   list-style-type: none;
   text-align: center;
+  font-weight: bold;
   padding: 0 0 0 20px;
 }
 .links-bar {
@@ -72,6 +74,18 @@ p {
   text-decoration: none;
   color: whitesmoke;
 
+}
+
+.btn-search {
+  background-color: #c41a48;
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 35px;
+  padding: 4px 25px;
+  margin-left: 0.5%;
+  float: left;
+  
 }
 
 .bear-logo {
@@ -118,7 +132,7 @@ p {
   width: 70%;
   height: 37px;
   float: left;
-  font-size: 1.7em;
+  font-size: 1.3em;
   letter-spacing: 0.7px;
 }
 
