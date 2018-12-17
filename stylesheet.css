@@ -39,7 +39,7 @@ p {
 
 .nav-bar a {
   text-decoration: none;
-  color: whitesmoke;
+  color:  rgba(255,255,255,0.8);
 }
 .nav-div {
   float: left;
@@ -72,14 +72,14 @@ p {
 
 .links-bar a{
   text-decoration: none;
-  color: whitesmoke;
+  color:  rgba(255,255,255,0.8);
 
 }
 
 .btn-search {
   background-color: #C12127;
   text-decoration: none;
-  color: whitesmoke;
+  color: rgba(255,255,255,0.8);
   text-align: center;
   border-radius: 35px;
   padding: 4px 25px;
@@ -173,6 +173,19 @@ p {
   float: left;
 }
 
+.article-first-section ul{
+  padding-left: 30px;
+}
+
+.article-first-section a{
+  text-decoration: none;
+  color:  rgba(255,255,255,0.8);
+}
+
+.article-first-section span {
+  padding-left: 30px;
+}
+
 .second-section {
   background-image: url(images/forklift.svg);
   background-size: cover;
@@ -216,7 +229,7 @@ p {
 .btn-sign {
   background-color: rgb(240, 146, 51);
   text-decoration: none;
-  color: whitesmoke;
+  color: rgba(255,255,255,0.8);
   text-align: center;
   border-radius: 35px;
   padding: 7px 70px;
@@ -225,7 +238,7 @@ p {
 .btn-sign-orgs {
   background-color:#C12127;
   text-decoration: none;
-  color: whitesmoke;
+  color: rgba(255,255,255,0.8);
   text-align: center;
   border-radius: 35px;
   padding: 8px 80px;
@@ -234,7 +247,7 @@ p {
 .btn-install {
   background-color: rgb(49, 68, 88);
   text-decoration: none;
-  color: whitesmoke;
+  color:  rgba(255,255,255,0.8);
   text-align: center;
   border-radius: 35px;
   padding: 7px 60px;
